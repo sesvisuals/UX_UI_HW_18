@@ -1,194 +1,186 @@
 body {
-    display: center;
-    background-color: black;
-    font-family: 'Nunito';
-    border: #00FFFF double 8px;
-  }
-  h1 {
-    color: white;
-    font-size: 26px;
-    font-weight: 800;
-  }
-  .me {
-    padding: 90px 20px 20px 30px
-  }
-  h2 {
-    color: white;
-    font-size: 24px
-  }
-  h3 {
-    color: white;
-    font-size: 22px;
-  }
-  p {
-    color: white;
-    font-size: 20px;
-    text-align: left;
-    padding: 0px 20px 10px 30px;
-  }
-  li {
-    color: white;
-    font-size: 20px;
-    text-align: c;
-    padding: 0px 20px 10px 30px;
-  }
-  header {
-    display: flex;
-    padding: 5px;
-  }
-  .navBar {
-    align-items: center;
-    display: flex;
-    background-color: black;
-  }
-  .topNavbar {
-    align-items: center;
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    height: 225px;
-    font-size: 32px;
-    font-weight: 800;
-    overflow: hidden;
-  }
-  .navPage {
-    width: 200px;
-    display: inline-block;
-    text-align: center;
-    padding:10px 10px;
-    border: #00FFFF double 8px;
-    margin: 30px;
-  }
-  .navPage:hover {
-    font-size: 34px;
-    border: #FF5F1F double 8px;  
-    color: white;
-  }
-  .active {
-    color: #FF5F1F;
-  }
-  a {
-    float: center;
-    color: #ffffff;
-    text-align: center; 
-    font-size: 32px;
-  }
-  .logo {
-    align-items: center;
-  }
-  .hiIm {
-    display: flex;
-    padding: 10px;
-  }
-  .ss {
-    align-items: left;
-    height: 675px;
-    width: 675px;
-    border: #FF5F1F double 8px;
-   
-  }
-  .photo {
-    align-items: right;
-    border: #FF5F1F double 8px;
-    height: 675px;
-    width: 675px;
-  }
-  .myPic {
-    padding: 35px;
-  }
-  .myViews {
-    display: flex;
-    padding: 10px;
-  }
-  .headLines {
-    display: left;
-    border: #00FFFF double 8px;
-    width: 445px;
-    height: 75px
-  }
-  .uR {
-    display: flex;
-    padding: 0px 107px 0px 107px;
-  }
-  .iA {
-    display: flex;
-    padding: 0px 22px 0px 22px;
-  }
-  .pR {
-    display: flex;
-    padding: 0px 120px 0px 120px;
-  }
-  .lines {
-    display: flex;
-    padding: 10px;
-  }
-  .ur {
-    display: flex;
-    padding: 10px;
-    border: #FF5F1F double 8px;
-    width: 425px;
-    height: 175px
-  }
-  .ia {
-    display: flex;
-    padding: 10px;
-    border: #FF5F1F double 8px;
-    width: 425px;
-    height: 175px
-  }
-  .pr {
-    display: flex;
-    padding: 10px;
-    border: #FF5F1F double 8px;
-    width: 425px;
-    height: 175px
-  }
-  .myAbs {
-    display: flex;
-    padding: 10px;
-  }
-  .lineHeads {
-    align-items: left;
-    height: 75px;
-    width: 675px;
-    border: #00FFFF double 8px;
-  }
-  .mS {
-    display: flex;
-    padding: 0px 272px 0px 272px;
-  }
-  .mT {
-    display: flex;
-    padding: 0px 272px 0px 272px;
-  }
-  .bp {
-    display: flex;
-    padding: 10px;
-  }
-  .skills {
-    display: flex;
-    align-items: left;
-    border: #FF5F1F double 8px;
-    width: 675px;
-    height: 300px
-  }
-  .bullet {
-    display: justify;
-    padding: 30px 20px 0px 70px;
-  }
-  .tools {
-    display: flex;
-    align-items: left;
-    border: #FF5F1F double 8px;
-    width: 675px;
-    height: 300px
-  }
-  .point {
-    display: justify;
-    padding: 30px 20px 0px 100px;
-  }
-  footer {
-    display: flex;
-    padding: 5px;
-  }
-  
+  background-color: black;
+  font-family: 'Nunito';
+}
+h1 {
+  color: white;
+  font-size: 26px;
+  font-weight: 800;
+}
+h2 {
+  color: white;
+  font-size: 24px
+}
+h3 {
+  color: white;
+  font-size: 22px;
+}
+p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 0px 20px 10px 30px;
+}
+li {
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 30px;
+}
+header {
+  display: flex;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.topNavbar {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  height: 200px;
+  font-size: 32px;
+  font-weight: 800;
+  overflow: hidden;
+}
+.navPage {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  padding:10px 10px;
+  border: #00FFFF double 8px;
+  margin: 28px;
+}
+a {
+  float: center;
+  color: #ffffff;
+  text-align: center; 
+  font-size: 32px;
+}
+.logo {
+  align-items: center;
+}
+.hiIm {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+.ss {
+  align-items: left;
+  height: 675px;
+  width: 675px;
+  border: #FF5F1F double 8px;
+}
+.ss h1 {
+  display: flex;
+  justify-content: center;
+}
+/* .me {
+  padding: 90px 20px 20px 30px
+} */
+.photo {
+  align-items: right;
+  border: #FF5F1F double 8px;
+  height: 675px;
+  width: 675px;
+}
+.myPic {
+  padding: 35px;
+}
+.myViews {
+  display: flex;
+  padding: 10px;
+}
+.headLines {
+  display: left;
+  border: #00FFFF double 8px;
+  width: 445px;
+  height: 75px
+}
+.uR {
+  display: flex;
+  padding: 0px 107px 0px 107px;
+}
+.iA {
+  display: flex;
+  padding: 0px 22px 0px 22px;
+}
+.pR {
+  display: flex;
+  padding: 0px 120px 0px 120px;
+}
+.lines {
+  display: flex;
+  padding: 10px;
+}
+.ur {
+  display: flex;
+  padding: 10px;
+  border: #FF5F1F double 8px;
+  width: 425px;
+  height: 175px
+}
+.ia {
+  display: flex;
+  padding: 10px;
+  border: #FF5F1F double 8px;
+  width: 425px;
+  height: 175px
+}
+.pr {
+  display: flex;
+  padding: 10px;
+  border: #FF5F1F double 8px;
+  width: 425px;
+  height: 175px
+}
+.myAbs {
+  display: flex;
+  padding: 10px;
+}
+.lineHeads {
+  align-items: left;
+  height: 75px;
+  width: 675px;
+  border: #00FFFF double 8px;
+}
+.mS {
+  display: flex;
+  padding: 0px 272px 0px 272px;
+}
+.mT {
+  display: flex;
+  padding: 0px 272px 0px 272px;
+}
+.bp {
+  display: flex;
+  padding: 10px;
+}
+.skills {
+  display: flex;
+  align-items: left;
+  border: #FF5F1F double 8px;
+  width: 675px;
+  height: 300px
+}
+.bullet {
+  display: justify;
+  padding: 30px 20px 0px 70px;
+}
+.tools {
+  display: flex;
+  align-items: left;
+  border: #FF5F1F double 8px;
+  width: 675px;
+  height: 300px
+}
+.point {
+  display: justify;
+  padding: 30px 20px 0px 100px;
+}
+footer {
+  display: flex;
+  padding: 5px;
+}
