@@ -53,11 +53,19 @@ header {
   border: #00FFFF double 8px;
   margin: 28px;
 }
+.active {
+  color: #FF5F1F;
+}
 a {
   float: center;
   color: #ffffff;
   text-align: center; 
   font-size: 32px;
+}
+.navPage:hover {
+  font-size: 34px;
+  border: #FF5F1F double 8px;  
+  color: white;
 }
 .logo {
   align-items: center;
@@ -182,4 +190,10 @@ a {
 }
 footer {
   display: flex;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and {
+  max-width: 
 }
