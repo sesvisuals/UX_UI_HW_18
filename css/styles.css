@@ -1,6 +1,7 @@
 body {
   background-color: black;
   font-family: 'Nunito';
+  margin: auto;
 }
 h1 {
   color: white;
@@ -30,6 +31,7 @@ header {
   display: flex;
 }
 .navBar {
+  margin: auto;
   display: flex;
   align-items: center;
   background-color: black;
@@ -40,7 +42,7 @@ header {
   list-style-type: none;
   margin: auto;
   padding: 0;
-  height: 200px;
+  /* height: 200px; */
   font-size: 32px;
   font-weight: 800;
   overflow: hidden;
@@ -49,7 +51,7 @@ header {
   width: 200px;
   display: inline-block;
   text-align: center;
-  padding:10px 10px;
+  padding: 10px 10px;
   border: #00FFFF double 8px;
   margin: 28px;
 }
@@ -68,16 +70,20 @@ a {
   color: white;
 }
 .logo {
+  display: flex;
+  margin: auto;
   align-items: center;
+  Padding: 0px 10px 0px 0px;
 }
 .hiIm {
   display: flex;
-  padding: 10px;
+  justify-content: center;
   margin: auto;
+  padding: 10px
 }
 .ss {
   align-items: left;
-  height: 675px;
+  height: 550px;
   width: 675px;
   border: #FF5F1F double 8px;
 }
@@ -91,18 +97,23 @@ a {
 .photo {
   align-items: right;
   border: #FF5F1F double 8px;
-  height: 675px;
+  height: 550px;
   width: 675px;
 }
+img {
+  width: 75%;
+}
 .myPic {
-  padding: 35px;
+  padding: 20px 90px;
 }
 .myViews {
   display: flex;
-  padding: 10px;
+  justify-content: center;
+  margin: auto;
+  padding: 20px;
 }
 .headLines {
-  display: left;
+  display: flex;
   border: #00FFFF double 8px;
   width: 445px;
   height: 75px
@@ -113,15 +124,17 @@ a {
 }
 .iA {
   display: flex;
-  padding: 0px 22px 0px 22px;
+  padding: 0px 30px 0px 30px;
 }
 .pR {
   display: flex;
-  padding: 0px 120px 0px 120px;
+  padding: 0px 120px 0px 130px;
 }
 .lines {
   display: flex;
-  padding: 10px;
+  justify-content: center;
+  margin: auto;
+  padding: 0px;
 }
 .ur {
   display: flex;
@@ -146,10 +159,12 @@ a {
 }
 .myAbs {
   display: flex;
-  padding: 10px;
+  justify-content: center;
+  margin: auto;
+  padding: 30px 0px 10px 0px;
 }
 .lineHeads {
-  align-items: left;
+  display: flex;
   height: 75px;
   width: 675px;
   border: #00FFFF double 8px;
@@ -164,6 +179,8 @@ a {
 }
 .bp {
   display: flex;
+  justify-content: center;
+  margin: auto;
   padding: 10px;
 }
 .skills {
@@ -194,6 +211,3 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media screen and {
-  max-width: 
-}
