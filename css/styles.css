@@ -7,6 +7,7 @@ h1 {
   color: white;
   font-size: 26px;
   font-weight: 800;
+  text-align: center;
 }
 h2 {
   color: white;
@@ -26,6 +27,7 @@ li {
   color: white;
   font-size: 20px;
   padding: 10px 20px 10px 30px;
+
 }
 header {
   display: flex;
@@ -54,9 +56,14 @@ header {
   padding: 10px 10px;
   border: #00FFFF double 8px;
   margin: 28px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate; 
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  
 }
 .active {
   color: #FF5F1F;
+  text-shadow: 0 0 0
 }
 a {
   float: center;
@@ -203,10 +210,34 @@ img {
 }
 .point {
   display: justify;
-  padding: 00px 20px 0px 100px;
+  padding: 0px 20px 0px 100px;
 }
 footer {
   display: flex;
+}
+.cr {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+/* Will this make my outlines/borders glow?? 
+.glow { 
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow s ease-in-out infinite alternate;
+} */
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px black, 0 0 10px #fff, 0 0 20px #009999, 0 0 30px #009999, 0 0 40px #009999, 0 0 50px #009999, 0 0 60px #009999;
+  }
+  to {
+    text-shadow: 0 0 10px black, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF, 0 0 50px #00FFFF, 0 0 60px #00FFFF, 0 0 70px #00FFFF
+  }
 }
 
 /* MEDIA QUERIES */
